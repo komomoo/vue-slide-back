@@ -1,0 +1,53 @@
+{
+  "name": "vue-slide-back",
+  "version": "0.0.1",
+  "description": "vue 滑动返回，为 Hybrid App 而生",
+  "author": "momoko <928701977@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/vue-slide-back.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wannaxiao/vue-slide-back"
+  },
+  "keywords": [
+    "vue",
+    "slide-back",
+    "route-back",
+    "parcel"
+  ],
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "NODE_ENV=production parcel build ./lib/index.js"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.1.1",
+    "autoprefixer": "^9.1.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-plugin-dynamic-import-node": "^1.2.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-stage-2": "^6.22.0",
+    "eslint": "^4.16.0",
+    "eslint-config-momo": "^1.1.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "parcel-bundler": "^1.9.7",
+    "postcss-modules": "^1.3.2",
+    "stylus": "^0.54.5",
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
